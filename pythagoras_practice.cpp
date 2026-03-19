@@ -7,14 +7,14 @@ int main(){
     double b;
     double c;
 
-    std::cout <<  "Enter side A: ";
+    std::cout << "Please Enter side A of the triangle: ";
     std::cin >> a;
-    std::cout << "Enter Side B: ";
+    std::cout << "Please Enter side B of the triangle: ";
     std::cin >> b;
 
     c = sqrt(pow(a,2) + pow(b,2));
 
-    std::cout << "The hypotenous is: " << c;
+    std::cout << "The hypotenuse is: " << c;
 
     return 0;
 }
